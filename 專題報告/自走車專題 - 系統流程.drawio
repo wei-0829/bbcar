@@ -1,0 +1,119 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="SXoVbXV-Pt16IKZHxL2N">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-25" edge="1" parent="1" source="FS5vBLfaJp0LUf7OtY0o-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Sfz-OYWP2tfsAVQUNU2B-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FS5vBLfaJp0LUf7OtY0o-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="自走車在裝貨點待命" vertex="1">
+          <mxGeometry height="50" width="128.13" x="227.18" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-19" edge="1" parent="1" source="Sfz-OYWP2tfsAVQUNU2B-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Sfz-OYWP2tfsAVQUNU2B-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="系統讀取所有需要運送的貨物資訊" vertex="1">
+          <mxGeometry height="60" width="240" x="171.57" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-18" edge="1" parent="1" source="Sfz-OYWP2tfsAVQUNU2B-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Sfz-OYWP2tfsAVQUNU2B-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="使用我們的方法算出所有待歸貨貨單" vertex="1">
+          <mxGeometry height="60" width="240" x="171.25" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-17" edge="1" parent="1" source="Sfz-OYWP2tfsAVQUNU2B-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Sfz-OYWP2tfsAVQUNU2B-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="執行所有歸貨貨單 p&lt;sub&gt;k&lt;/sub&gt;，k = 1, 2, ..., t" vertex="1">
+          <mxGeometry height="60" width="240.63" x="171.25" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-16" edge="1" parent="1" source="Sfz-OYWP2tfsAVQUNU2B-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Sfz-OYWP2tfsAVQUNU2B-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;在&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;p&lt;/span&gt;&lt;sub style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;k&lt;/sub&gt;&amp;nbsp;中&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;拜訪完所有&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;貨架 r&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;i&lt;/sub&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;，i = 1, 2, ..., L&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="243.13" x="169.68" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-32" edge="1" parent="1" source="Sfz-OYWP2tfsAVQUNU2B-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="479" y="700" />
+              <mxPoint x="479" y="190" />
+              <mxPoint x="629" y="190" />
+            </Array>
+            <mxPoint x="420.32" y="700" as="sourcePoint" />
+            <mxPoint x="629.3750000000001" y="229.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="到達貨架 r&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;i&lt;/sub&gt;&lt;/span&gt;&amp;nbsp;後即完成該貨架 r&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;i&lt;/sub&gt;&lt;/span&gt;&amp;nbsp;的貨物配送" vertex="1">
+          <mxGeometry height="60" width="240" x="171.57" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-15" edge="1" parent="1" source="Sfz-OYWP2tfsAVQUNU2B-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Sfz-OYWP2tfsAVQUNU2B-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-28" connectable="0" parent="Sfz-OYWP2tfsAVQUNU2B-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="0.0699" as="geometry">
+            <mxPoint x="19" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Li1WUlUBrpuHof8gmUQ-1" connectable="0" parent="Sfz-OYWP2tfsAVQUNU2B-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.2429" as="geometry">
+            <mxPoint x="-91" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-33" edge="1" parent="1" source="Sfz-OYWP2tfsAVQUNU2B-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;dashed=1;dashPattern=1 4;" target="Sfz-OYWP2tfsAVQUNU2B-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="574" y="230" />
+              <mxPoint x="450" y="230" />
+              <mxPoint x="450" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="檢查 i 是否 = L" vertex="1">
+          <mxGeometry height="60" width="186.89" x="527.1800000000001" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-20" edge="1" parent="1" source="Sfz-OYWP2tfsAVQUNU2B-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Sfz-OYWP2tfsAVQUNU2B-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="當歸貨貨單&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;p&lt;/span&gt;&lt;sub style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;k&lt;/sub&gt;&amp;nbsp;中所有貨架&lt;div&gt;皆拜訪完成後，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;返回裝貨點&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="530.32" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-21" edge="1" parent="1" source="Sfz-OYWP2tfsAVQUNU2B-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Sfz-OYWP2tfsAVQUNU2B-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="完成該歸貨貨單 &lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;p&lt;/span&gt;&lt;sub style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;k&lt;/sub&gt;&amp;nbsp;的配送" vertex="1">
+          <mxGeometry height="50" width="180.62" x="530.32" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-26" edge="1" parent="1" source="Sfz-OYWP2tfsAVQUNU2B-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Sfz-OYWP2tfsAVQUNU2B-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-31" connectable="0" parent="Sfz-OYWP2tfsAVQUNU2B-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="否" vertex="1">
+          <mxGeometry relative="1" x="-0.1791" as="geometry">
+            <mxPoint x="-91" y="-95" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-34" edge="1" parent="1" source="Sfz-OYWP2tfsAVQUNU2B-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" target="Sfz-OYWP2tfsAVQUNU2B-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="573" y="560" />
+              <mxPoint x="510" y="560" />
+              <mxPoint x="510" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-35" connectable="0" parent="Sfz-OYWP2tfsAVQUNU2B-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是" vertex="1">
+          <mxGeometry relative="1" x="-0.5909" y="-1" as="geometry">
+            <mxPoint x="117" y="71" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="檢查 k 是否 = t" vertex="1">
+          <mxGeometry height="60" width="191.75" x="525.46" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="Sfz-OYWP2tfsAVQUNU2B-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="完成" vertex="1">
+          <mxGeometry height="60" width="120" x="561.57" y="670" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

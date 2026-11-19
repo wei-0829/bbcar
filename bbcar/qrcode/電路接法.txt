@@ -1,0 +1,5 @@
+Vcc 接 5V
+GND 接 GND
+(Rx、Tx須反接)
+Rx 接 Tx (Arduino uno pin0)
+Tx 接 Rx (Arduino uno pin1)	

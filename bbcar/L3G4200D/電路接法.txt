@@ -1,0 +1,4 @@
+Vcc 接 5V
+GND 接 GND
+SCL 接 A5
+SDA 接 A4
